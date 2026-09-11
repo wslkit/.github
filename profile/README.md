@@ -67,8 +67,12 @@ rootfs that does not verify.
 
 ## Status
 
-**v0.3, pre-release.** Installable and working as a daily driver. Binaries are
-not signed yet, so SmartScreen will warn — that work is tracked in the open.
+**v0.3.1, pre-release.** Installable and working as a daily driver.
+
+Every release artifact carries [SLSA build provenance](https://slsa.dev) and a
+cosign keyless signature, so a download can be tied to the workflow, the
+repository and the commit that produced it. Binaries are not Authenticode-signed
+yet, so SmartScreen will warn — that work is tracked in the open.
 
 📖 **[Documentation](https://hawserhq.github.io/hawser/)** ·
 🐛 **[Issues](https://github.com/hawserhq/hawser/issues)** ·
